@@ -42,7 +42,7 @@ section{
     padding-top: 20vh ;
     padding-bottom: 20vh;
     line-height: 1.5em;
-    padding-left: 30px;
+    padding-left: 10px;
     font-size: 2.2vw;
     font-weight: 500px;
     font-family: var(--fonte3);
@@ -51,8 +51,7 @@ section{
 section.texto p{
     background-color: var(--cor3);
     padding: 10px;
-    max-width: 900px;
-    min-width: 320px;
+    width: 45vw;
 }
 section.imagem{
     background-color: darkgrey;
@@ -62,10 +61,9 @@ section.imagem{
 }
 section.imagem p{
     background-color: rgba(0, 0, 0, 0.486);
-    width: 400px;
     padding: 10px;
-    max-width: 900px;
-    min-width: 320px;
+    width: 45vw;
+    display: inline-block;
 }
 section#img1{
     background-image: url('../imagens/streetimg1.png');
