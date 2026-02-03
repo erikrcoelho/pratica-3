@@ -13,55 +13,59 @@
     --fonte2:"Oswald", sans-serif;
     --fonte3:"Lexend Deca", sans-serif; 
 
-    --cor1:#75341675;
+    --cor1:#a3522dd3;
     --cor2:#000000;
     --cor3:#84a7a97c;
 }
 
 html, body{
-    font-family: var(--fonte3);
     min-height: 100vh;
     background-color: var(--cor3);
+    font-family: var(--fonte1)
 }
 header{
     background-color: var(--cor2);
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px ;
+    padding-top: 10px;
+    padding-bottom: 10px ;
     color: white;
 }
 header h1{
     padding-top: 40px;
     font-family: var(--fonte2);
-    font-size: 9vw;
+    font-size: 11vw;
 }
 header p{
     padding-bottom: 40px;
 }
 section{
-    padding-top: 10vh ;
-    padding-bottom: 10vh;
-    line-height: 1.1em;
+    padding-top: 20vh ;
+    padding-bottom: 20vh;
+    line-height: 1.5em;
     padding-left: 30px;
     font-size: 2.2vw;
-    font-weight: 200;
+    font-weight: 500px;
+    font-family: var(--fonte3);
 }
 
 section.texto p{
     background-color: var(--cor3);
     padding: 10px;
-    width: 900px;
-    font-size:1.5vw;
+    max-width: 900px;
+    min-width: 400px;
 }
 section.imagem{
     background-color: darkgrey;
     color: white;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
 }
 section.imagem p{
     background-color: rgba(0, 0, 0, 0.486);
     width: 400px;
     padding: 10px;
+    max-width: 900px;
+    min-width: 400px;
 }
 section#img1{
     background-image: url('../imagens/streetimg1.png');
@@ -71,4 +75,20 @@ footer{
     text-align: center;
     background-color:var(--cor2);
     color: white;
+    padding: 10px;
+    font-size: 2vw;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor1);
+}
+header h1:hover{
+    color: var(--cor1);
+}
+section h2:hover{
+    color: var(--cor1);
 }
