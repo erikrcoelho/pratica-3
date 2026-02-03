@@ -52,7 +52,7 @@ section.texto p{
     background-color: var(--cor3);
     padding: 10px;
     max-width: 900px;
-    min-width: 400px;
+    min-width: 320px;
 }
 section.imagem{
     background-color: darkgrey;
@@ -65,7 +65,7 @@ section.imagem p{
     width: 400px;
     padding: 10px;
     max-width: 900px;
-    min-width: 400px;
+    min-width: 320px;
 }
 section#img1{
     background-image: url('../imagens/streetimg1.png');
